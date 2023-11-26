@@ -1,0 +1,104 @@
+/**FONTS**/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body{
+  background-image: linear-gradient(to right, #4776e6, #8e54e9);
+}
+
+.App{
+  text-align: center;
+}
+.phoneImg{
+  width: 600px;
+  height: 600px;
+  margin-top: 20px;
+}
+.shopName{
+  color: #fffc00;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.tovarName{
+  margin-bottom: 0;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+}
+.tovarPrice{
+  margin-bottom: 0;
+  color: #8bff7d;
+  font-size: 27px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  font-family: system-ui;
+}
+.purchaseBtn, .payButton{
+  background-color: #2e333a;
+  color: #fff;
+  padding: 20px;
+  font-size: 20px;
+  font-family: sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+.form-group{
+  margin-bottom: 20px;
+}
+.form-row{
+  padding: 0 350px 0 350px;
+}
+
+.success{
+  color: #fff;
+}
+button {
+  position: relative;
+  overflow: hidden;
+  outline: none;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: hsl(255deg 50% 40%);
+  border: solid 4px hsl(50deg 100% 50%);
+  font-family: inherit;
+ }
+ 
+ .default-btn,.hover-btn {
+  background-color: hsl(255deg 50% 40%);
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px 20px;
+  border-radius: 50px;
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: all .3s ease;
+ }
+ 
+ .hover-btn {
+  position: absolute;
+  inset: 0;
+  background-color: hsl(255deg 50% 49%);
+  transform: translate(0%,100%);
+ }
+ 
+ .default-btn span {
+  color: hsl(0, 0%, 100%);
+ }
+ 
+ .hover-btn span {
+  color: hsl(50deg 100% 50%);
+ }
+ 
+ button:hover .default-btn {
+  transform: translate(0%,-100%);
+ }
+ 
+ button:hover .hover-btn {
+  transform: translate(0%,0%);
+ }
